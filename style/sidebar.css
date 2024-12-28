@@ -1,0 +1,114 @@
+.sidebar {
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 58px;
+    bottom: 0;
+    width: 75px;
+    margin-top: px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(243, 243, 243);
+    z-index: 200;
+    padding-top: 6px;
+    cursor: pointer;
+}
+.home {
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial;
+    padding-top: 18px;
+    padding-bottom: 19px;
+    font-size: 11px;
+    margin-bottom: 1px;
+}
+.home:hover {
+    background-color: rgb(233, 233, 233);
+}
+.home-icon {
+    height: 25px;
+    padding-bottom: 8px;
+}
+.explore {
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    font-size: 11px;
+    margin-bottom: 1px;
+}
+.explore:hover {
+    background-color: rgb(233, 233, 233);
+}
+.subscribe {
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 11px;
+    margin-bottom: 1px;
+}
+.subscribe:hover {
+    background-color: rgb(233, 233, 233);
+}
+.Originals {
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial;
+    padding-top: 18px;
+    padding-bottom: 19px;
+    font-size: 11px;
+    margin-bottom: 1px;
+}
+.Originals:hover {
+    background-color: rgb(233, 233, 233);
+}
+.music {
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    font-size: 11px;
+    margin-bottom: 1px;
+}
+.music:hover {
+    background-color: rgb(233, 233, 233);
+}
+.library {
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 11px;
+}
+.library:hover {
+    background-color: rgb(233, 233, 233);
+}

@@ -1,0 +1,219 @@
+.header {
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(236, 228, 228);
+}
+.left-section {
+    display: flex;
+    align-items: center;
+}
+.hamburger-menu {
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.youtube-logo {
+    height: 25px;
+    cursor: pointer;
+}
+.middle-section {
+    flex: 1;
+    margin-left: 80px;
+    margin-right: 100px;
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+}
+.search {
+    width: 1px;
+    height: 40px;
+    flex: 1;
+    padding-left: 10px;
+    font-size: 19px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(219, 219, 219);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 1px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+.search::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 18px;
+}
+.search-button {
+    height: 44px;
+    width: 65px;
+    background-color: rgb(242, 242, 242);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(219, 219, 219);
+    margin-left: -1px;
+}
+.search-button,
+.voice-button,
+.uploads-button {
+    position: relative;
+    cursor: pointer;
+}
+.search-button:hover {
+    background-color: rgb(233, 233, 233);
+}
+.search-button:active {
+    opacity: 0.8;
+    background-color: rgb(233, 233, 233);
+}
+.search-icons {
+    height: 26px;
+    padding-top: 6px;
+}
+.search-button .search-hov,
+.voice-button .voice-hover,
+.uploads-button .upload-hover {
+    position: absolute;
+    bottom: -36px;
+    background-color: grey;
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-button:hover .search-hov,
+.voice-button:hover .voice-hover,
+.uploads-button:hover .upload-hover {
+    transition: opacity 0.15s;
+    opacity: 1;
+}
+.voice-button {
+    height: 40px;
+    width: 40px;
+    margin-left: 7px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(219, 219, 219);
+    border-radius: 55px;
+    background-color: rgb(249, 249, 249);
+}
+.voice-icon {
+    height: 26px;
+    padding-top: 5px;
+}
+.right-section {
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.upload-icon {
+    height: 28px;
+    padding-top: 6px;
+}
+.uploads-button .upload-hover {
+    left: -8px;
+}
+.apps-icon {
+    height: 28px;
+    padding-top: 5px;
+}
+.app-button {
+    position: relative;
+    cursor: pointer;
+}
+.app-button .apps-hover {
+    position: absolute;
+    left: -30px;
+    bottom: -36px;
+    background-color: grey;
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-button:hover .apps-hover,
+.notification:hover .notifications-hover {
+    opacity: 1;
+    transition: opacity 0.15s;
+}
+.notification-icon {
+    height: 27px;
+    padding-top: 8px;
+}
+.notification {
+    position: relative;
+    cursor: pointer;
+}
+.notification .notifications-hover {
+    position: absolute;
+    left: -30px;
+    bottom: -36px;
+    background-color: grey;
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.noti-count {
+    position: absolute;
+    top: 6px;
+    right: -2px;
+    background-color: rgb(219, 30, 30);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+}
+.user-icon {
+    height: 35px;
+    border-radius: 17px;
+    margin-right: 18px;
+    cursor: pointer;
+}
